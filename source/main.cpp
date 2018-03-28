@@ -1,5 +1,8 @@
 #include <iostream>
 #include "header.hpp"
+#include "directions.hpp"
+#include "ownshader.hpp"
+#include "particle.hpp"
 
 // global settings
 const unsigned int SCR_WIDTH = 800;
