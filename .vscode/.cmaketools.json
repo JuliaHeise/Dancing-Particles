@@ -1,0 +1,1137 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+            "hasInstallRule": false,
+            "minimumCMakeVersion": "3.1",
+            "name": "Dancing_Particles",
+            "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+            "targets": [
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/f80f9b401898f827e67c33943b7dc90a/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "isGeneratorProvided": true,
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Debug/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Debug/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Debug/glfw3.pdb"
+                ],
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "defines": [
+                      "_CRT_SECURE_NO_WARNINGS",
+                      "_GLFW_USE_CONFIG_H"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "context.c",
+                      "init.c",
+                      "input.c",
+                      "monitor.c",
+                      "vulkan.c",
+                      "window.c",
+                      "win32_init.c",
+                      "win32_joystick.c",
+                      "win32_monitor.c",
+                      "win32_time.c",
+                      "win32_tls.c",
+                      "win32_window.c",
+                      "wgl_context.c",
+                      "egl_context.c"
+                    ]
+                  },
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "internal.h",
+                      "../../../build/libraries/glfw/src/glfw_config.h",
+                      "../include/GLFW/glfw3.h",
+                      "../include/GLFW/glfw3native.h",
+                      "win32_platform.h",
+                      "win32_joystick.h",
+                      "wgl_context.h",
+                      "egl_context.h"
+                    ]
+                  }
+                ],
+                "fullName": "glfw3.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "C",
+                "name": "glfw",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/Debug/Dancing_Particles.exe",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/Debug/Dancing_Particles.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/Debug/Dancing_Particles.pdb"
+                ],
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "defines": [
+                      "GLFW_INCLUDE_NONE"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/source"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glm"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glad"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/header"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "source/main.cpp",
+                      "source/ownshader.cpp"
+                    ]
+                  },
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "source/header.hpp",
+                      "header/directions.hpp",
+                      "header/particle.hpp",
+                      "header/ownshader.hpp"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "defines": [
+                      "GLFW_INCLUDE_NONE"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/source"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glm"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glad"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/header"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "source/glad.c"
+                    ]
+                  }
+                ],
+                "fullName": "Dancing_Particles.exe",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86 /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+                "linkLibraries": "libraries\\glfw\\src\\Debug\\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Dancing_Particles",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "EXECUTABLE"
+              }
+            ]
+          },
+          {
+            "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+            "hasInstallRule": false,
+            "minimumCMakeVersion": "2.8.12",
+            "name": "GLFW",
+            "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Debug/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Debug/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Debug/glfw3.pdb"
+                ],
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "defines": [
+                      "_CRT_SECURE_NO_WARNINGS",
+                      "_GLFW_USE_CONFIG_H"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "context.c",
+                      "init.c",
+                      "input.c",
+                      "monitor.c",
+                      "vulkan.c",
+                      "window.c",
+                      "win32_init.c",
+                      "win32_joystick.c",
+                      "win32_monitor.c",
+                      "win32_time.c",
+                      "win32_tls.c",
+                      "win32_window.c",
+                      "wgl_context.c",
+                      "egl_context.c"
+                    ]
+                  },
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "internal.h",
+                      "../../../build/libraries/glfw/src/glfw_config.h",
+                      "../include/GLFW/glfw3.h",
+                      "../include/GLFW/glfw3native.h",
+                      "win32_platform.h",
+                      "win32_joystick.h",
+                      "wgl_context.h",
+                      "egl_context.h"
+                    ]
+                  }
+                ],
+                "fullName": "glfw3.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "C",
+                "name": "glfw",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Release",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+            "hasInstallRule": false,
+            "minimumCMakeVersion": "3.1",
+            "name": "Dancing_Particles",
+            "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+            "targets": [
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/f80f9b401898f827e67c33943b7dc90a/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "isGeneratorProvided": true,
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Release/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Release/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Release/glfw3.pdb"
+                ],
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG  ",
+                    "defines": [
+                      "_CRT_SECURE_NO_WARNINGS",
+                      "_GLFW_USE_CONFIG_H"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "context.c",
+                      "init.c",
+                      "input.c",
+                      "monitor.c",
+                      "vulkan.c",
+                      "window.c",
+                      "win32_init.c",
+                      "win32_joystick.c",
+                      "win32_monitor.c",
+                      "win32_time.c",
+                      "win32_tls.c",
+                      "win32_window.c",
+                      "wgl_context.c",
+                      "egl_context.c"
+                    ]
+                  },
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "internal.h",
+                      "../../../build/libraries/glfw/src/glfw_config.h",
+                      "../include/GLFW/glfw3.h",
+                      "../include/GLFW/glfw3native.h",
+                      "win32_platform.h",
+                      "win32_joystick.h",
+                      "wgl_context.h",
+                      "egl_context.h"
+                    ]
+                  }
+                ],
+                "fullName": "glfw3.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "C",
+                "name": "glfw",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/Release/Dancing_Particles.exe",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/Release/Dancing_Particles.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/Release/Dancing_Particles.pdb"
+                ],
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "source/header.hpp",
+                      "header/directions.hpp",
+                      "header/particle.hpp",
+                      "header/ownshader.hpp"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  ",
+                    "defines": [
+                      "GLFW_INCLUDE_NONE"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/source"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glm"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glad"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/header"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "source/main.cpp",
+                      "source/ownshader.cpp"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG  ",
+                    "defines": [
+                      "GLFW_INCLUDE_NONE"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/source"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glm"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glad"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/header"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "source/glad.c"
+                    ]
+                  }
+                ],
+                "fullName": "Dancing_Particles.exe",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86 /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
+                "linkLibraries": "libraries\\glfw\\src\\Release\\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Dancing_Particles",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "EXECUTABLE"
+              }
+            ]
+          },
+          {
+            "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+            "hasInstallRule": false,
+            "minimumCMakeVersion": "2.8.12",
+            "name": "GLFW",
+            "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Release/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Release/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Release/glfw3.pdb"
+                ],
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG  ",
+                    "defines": [
+                      "_CRT_SECURE_NO_WARNINGS",
+                      "_GLFW_USE_CONFIG_H"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "context.c",
+                      "init.c",
+                      "input.c",
+                      "monitor.c",
+                      "vulkan.c",
+                      "window.c",
+                      "win32_init.c",
+                      "win32_joystick.c",
+                      "win32_monitor.c",
+                      "win32_time.c",
+                      "win32_tls.c",
+                      "win32_window.c",
+                      "wgl_context.c",
+                      "egl_context.c"
+                    ]
+                  },
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "internal.h",
+                      "../../../build/libraries/glfw/src/glfw_config.h",
+                      "../include/GLFW/glfw3.h",
+                      "../include/GLFW/glfw3native.h",
+                      "win32_platform.h",
+                      "win32_joystick.h",
+                      "wgl_context.h",
+                      "egl_context.h"
+                    ]
+                  }
+                ],
+                "fullName": "glfw3.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "C",
+                "name": "glfw",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MinSizeRel",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+            "hasInstallRule": false,
+            "minimumCMakeVersion": "3.1",
+            "name": "Dancing_Particles",
+            "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+            "targets": [
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/f80f9b401898f827e67c33943b7dc90a/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "isGeneratorProvided": true,
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/MinSizeRel/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/MinSizeRel/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/MinSizeRel/glfw3.pdb"
+                ],
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /MD /O1 /Ob1 /DNDEBUG  ",
+                    "defines": [
+                      "_CRT_SECURE_NO_WARNINGS",
+                      "_GLFW_USE_CONFIG_H"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "context.c",
+                      "init.c",
+                      "input.c",
+                      "monitor.c",
+                      "vulkan.c",
+                      "window.c",
+                      "win32_init.c",
+                      "win32_joystick.c",
+                      "win32_monitor.c",
+                      "win32_time.c",
+                      "win32_tls.c",
+                      "win32_window.c",
+                      "wgl_context.c",
+                      "egl_context.c"
+                    ]
+                  },
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "internal.h",
+                      "../../../build/libraries/glfw/src/glfw_config.h",
+                      "../include/GLFW/glfw3.h",
+                      "../include/GLFW/glfw3native.h",
+                      "win32_platform.h",
+                      "win32_joystick.h",
+                      "wgl_context.h",
+                      "egl_context.h"
+                    ]
+                  }
+                ],
+                "fullName": "glfw3.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "C",
+                "name": "glfw",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/MinSizeRel/Dancing_Particles.exe",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/MinSizeRel/Dancing_Particles.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/MinSizeRel/Dancing_Particles.pdb"
+                ],
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "source/header.hpp",
+                      "header/directions.hpp",
+                      "header/particle.hpp",
+                      "header/ownshader.hpp"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG  ",
+                    "defines": [
+                      "GLFW_INCLUDE_NONE"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/source"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glm"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glad"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/header"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "source/main.cpp",
+                      "source/ownshader.cpp"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /MD /O1 /Ob1 /DNDEBUG  ",
+                    "defines": [
+                      "GLFW_INCLUDE_NONE"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/source"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glm"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glad"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/header"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "source/glad.c"
+                    ]
+                  }
+                ],
+                "fullName": "Dancing_Particles.exe",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86 /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+                "linkLibraries": "libraries\\glfw\\src\\MinSizeRel\\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Dancing_Particles",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "EXECUTABLE"
+              }
+            ]
+          },
+          {
+            "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+            "hasInstallRule": false,
+            "minimumCMakeVersion": "2.8.12",
+            "name": "GLFW",
+            "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/MinSizeRel/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/MinSizeRel/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/MinSizeRel/glfw3.pdb"
+                ],
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /MD /O1 /Ob1 /DNDEBUG  ",
+                    "defines": [
+                      "_CRT_SECURE_NO_WARNINGS",
+                      "_GLFW_USE_CONFIG_H"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "context.c",
+                      "init.c",
+                      "input.c",
+                      "monitor.c",
+                      "vulkan.c",
+                      "window.c",
+                      "win32_init.c",
+                      "win32_joystick.c",
+                      "win32_monitor.c",
+                      "win32_time.c",
+                      "win32_tls.c",
+                      "win32_window.c",
+                      "wgl_context.c",
+                      "egl_context.c"
+                    ]
+                  },
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "internal.h",
+                      "../../../build/libraries/glfw/src/glfw_config.h",
+                      "../include/GLFW/glfw3.h",
+                      "../include/GLFW/glfw3native.h",
+                      "win32_platform.h",
+                      "win32_joystick.h",
+                      "wgl_context.h",
+                      "egl_context.h"
+                    ]
+                  }
+                ],
+                "fullName": "glfw3.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "C",
+                "name": "glfw",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RelWithDebInfo",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+            "hasInstallRule": false,
+            "minimumCMakeVersion": "3.1",
+            "name": "Dancing_Particles",
+            "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+            "targets": [
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/f80f9b401898f827e67c33943b7dc90a/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "isGeneratorProvided": true,
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/RelWithDebInfo/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/RelWithDebInfo/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/RelWithDebInfo/glfw3.pdb"
+                ],
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "defines": [
+                      "_CRT_SECURE_NO_WARNINGS",
+                      "_GLFW_USE_CONFIG_H"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "context.c",
+                      "init.c",
+                      "input.c",
+                      "monitor.c",
+                      "vulkan.c",
+                      "window.c",
+                      "win32_init.c",
+                      "win32_joystick.c",
+                      "win32_monitor.c",
+                      "win32_time.c",
+                      "win32_tls.c",
+                      "win32_window.c",
+                      "wgl_context.c",
+                      "egl_context.c"
+                    ]
+                  },
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "internal.h",
+                      "../../../build/libraries/glfw/src/glfw_config.h",
+                      "../include/GLFW/glfw3.h",
+                      "../include/GLFW/glfw3native.h",
+                      "win32_platform.h",
+                      "win32_joystick.h",
+                      "wgl_context.h",
+                      "egl_context.h"
+                    ]
+                  }
+                ],
+                "fullName": "glfw3.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "C",
+                "name": "glfw",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/RelWithDebInfo/Dancing_Particles.exe",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/RelWithDebInfo/Dancing_Particles.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/RelWithDebInfo/Dancing_Particles.pdb"
+                ],
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "source/header.hpp",
+                      "header/directions.hpp",
+                      "header/particle.hpp",
+                      "header/ownshader.hpp"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "defines": [
+                      "GLFW_INCLUDE_NONE"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/source"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glm"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glad"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/header"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "source/main.cpp",
+                      "source/ownshader.cpp"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "defines": [
+                      "GLFW_INCLUDE_NONE"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/source"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glm"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/includes/glad"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/header"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "source/glad.c"
+                    ]
+                  }
+                ],
+                "fullName": "Dancing_Particles.exe",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86 /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+                "linkLibraries": "libraries\\glfw\\src\\RelWithDebInfo\\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "Dancing_Particles",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "EXECUTABLE"
+              }
+            ]
+          },
+          {
+            "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+            "hasInstallRule": false,
+            "minimumCMakeVersion": "2.8.12",
+            "name": "GLFW",
+            "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/RelWithDebInfo/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/RelWithDebInfo/glfw3.lib",
+                  "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/RelWithDebInfo/glfw3.pdb"
+                ],
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "defines": [
+                      "_CRT_SECURE_NO_WARNINGS",
+                      "_GLFW_USE_CONFIG_H"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/include"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src"
+                      },
+                      {
+                        "path": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "context.c",
+                      "init.c",
+                      "input.c",
+                      "monitor.c",
+                      "vulkan.c",
+                      "window.c",
+                      "win32_init.c",
+                      "win32_joystick.c",
+                      "win32_monitor.c",
+                      "win32_time.c",
+                      "win32_tls.c",
+                      "win32_window.c",
+                      "wgl_context.c",
+                      "egl_context.c"
+                    ]
+                  },
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "internal.h",
+                      "../../../build/libraries/glfw/src/glfw_config.h",
+                      "../include/GLFW/glfw3.h",
+                      "../include/GLFW/glfw3native.h",
+                      "win32_platform.h",
+                      "win32_joystick.h",
+                      "wgl_context.h",
+                      "egl_context.h"
+                    ]
+                  }
+                ],
+                "fullName": "glfw3.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "C",
+                "name": "glfw",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.7783103426995477",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}
