@@ -20,6 +20,30 @@
             "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
             "targets": [
               {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/f80f9b401898f827e67c33943b7dc90a/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "isGeneratorProvided": true,
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
+              },
+              {
                 "artifacts": [
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/Debug/Dancing_Particles.exe",
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/Debug/Dancing_Particles.lib",
@@ -109,38 +133,6 @@
                 "type": "EXECUTABLE"
               },
               {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/f80f9b401898f827e67c33943b7dc90a/generate.stamp.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ZERO_CHECK",
-                "isGeneratorProvided": true,
-                "name": "ZERO_CHECK",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
-                "fullName": "ALL_BUILD",
-                "isGeneratorProvided": true,
-                "name": "ALL_BUILD",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
-                "fullName": "ALL_BUILD",
-                "isGeneratorProvided": true,
-                "name": "ALL_BUILD",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
-                "type": "UTILITY"
-              },
-              {
                 "artifacts": [
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Debug/glfw3.lib",
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Debug/glfw3.lib",
@@ -205,6 +197,14 @@
                 "name": "glfw",
                 "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src",
                 "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
               }
             ]
           },
@@ -304,6 +304,30 @@
             "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
             "targets": [
               {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/f80f9b401898f827e67c33943b7dc90a/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "isGeneratorProvided": true,
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
+              },
+              {
                 "artifacts": [
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/Release/Dancing_Particles.exe",
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/Release/Dancing_Particles.lib",
@@ -393,38 +417,6 @@
                 "type": "EXECUTABLE"
               },
               {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/f80f9b401898f827e67c33943b7dc90a/generate.stamp.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ZERO_CHECK",
-                "isGeneratorProvided": true,
-                "name": "ZERO_CHECK",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
-                "fullName": "ALL_BUILD",
-                "isGeneratorProvided": true,
-                "name": "ALL_BUILD",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
-                "fullName": "ALL_BUILD",
-                "isGeneratorProvided": true,
-                "name": "ALL_BUILD",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
-                "type": "UTILITY"
-              },
-              {
                 "artifacts": [
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Release/glfw3.lib",
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/Release/glfw3.lib",
@@ -489,6 +481,14 @@
                 "name": "glfw",
                 "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src",
                 "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
               }
             ]
           },
@@ -588,6 +588,30 @@
             "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
             "targets": [
               {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/f80f9b401898f827e67c33943b7dc90a/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "isGeneratorProvided": true,
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
+              },
+              {
                 "artifacts": [
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/MinSizeRel/Dancing_Particles.exe",
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/MinSizeRel/Dancing_Particles.lib",
@@ -677,38 +701,6 @@
                 "type": "EXECUTABLE"
               },
               {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/f80f9b401898f827e67c33943b7dc90a/generate.stamp.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ZERO_CHECK",
-                "isGeneratorProvided": true,
-                "name": "ZERO_CHECK",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
-                "fullName": "ALL_BUILD",
-                "isGeneratorProvided": true,
-                "name": "ALL_BUILD",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
-                "fullName": "ALL_BUILD",
-                "isGeneratorProvided": true,
-                "name": "ALL_BUILD",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
-                "type": "UTILITY"
-              },
-              {
                 "artifacts": [
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/MinSizeRel/glfw3.lib",
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/MinSizeRel/glfw3.lib",
@@ -773,6 +765,14 @@
                 "name": "glfw",
                 "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src",
                 "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
               }
             ]
           },
@@ -872,6 +872,30 @@
             "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
             "targets": [
               {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/f80f9b401898f827e67c33943b7dc90a/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "isGeneratorProvided": true,
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
+              },
+              {
                 "artifacts": [
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/RelWithDebInfo/Dancing_Particles.exe",
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/RelWithDebInfo/Dancing_Particles.lib",
@@ -961,38 +985,6 @@
                 "type": "EXECUTABLE"
               },
               {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/f80f9b401898f827e67c33943b7dc90a/generate.stamp.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ZERO_CHECK",
-                "isGeneratorProvided": true,
-                "name": "ZERO_CHECK",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
-                "fullName": "ALL_BUILD",
-                "isGeneratorProvided": true,
-                "name": "ALL_BUILD",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
-                "fullName": "ALL_BUILD",
-                "isGeneratorProvided": true,
-                "name": "ALL_BUILD",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
-                "type": "UTILITY"
-              },
-              {
                 "artifacts": [
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/RelWithDebInfo/glfw3.lib",
                   "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw/src/RelWithDebInfo/glfw3.lib",
@@ -1057,6 +1049,14 @@
                 "name": "glfw",
                 "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw/src",
                 "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
+                "type": "UTILITY"
               }
             ]
           },
@@ -1146,7 +1146,7 @@
         ]
       }
     ],
-    "cookie": "0.060603806257429005",
+    "cookie": "0.0014153622660695309",
     "inReplyTo": "codemodel",
     "type": "reply"
   }
