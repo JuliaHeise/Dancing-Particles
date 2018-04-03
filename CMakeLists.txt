@@ -13,6 +13,7 @@ set(HEADER
 	"${HD_DIR}/directions.hpp"
 	"${HD_DIR}/particle.hpp"
 	"${HD_DIR}/ownshader.hpp"
+	"${HD_DIR}/display.hpp"
 )
 set(SOURCES 	
 	"${SRC_DIR}/header.hpp"

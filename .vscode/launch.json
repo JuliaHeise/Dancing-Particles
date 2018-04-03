@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/build/debug/Dancing_Particles.exe",
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,

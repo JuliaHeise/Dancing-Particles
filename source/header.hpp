@@ -3,7 +3,15 @@
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <glm.hpp>
+#include <gtc/matrix_transform.hpp>
+#include <gtc/type_ptr.hpp>
 #include <stack>
+#include <iostream>
+
+// global settings
+const unsigned int SCR_WIDTH = 800;
+const unsigned int SCR_HEIGHT = 600;
 
 struct float3{
     float x;
@@ -25,6 +33,5 @@ struct float3{
         z = 0;
     };
 };
-
 
 #endif
