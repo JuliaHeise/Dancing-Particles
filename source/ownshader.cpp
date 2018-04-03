@@ -4,29 +4,30 @@
 	///////////////////// 	   Work With	  /////////////////////
 	///////////////////////////////////////////////////////////////
 //-------------------------------------------------------------------------------------//
-void Shader::draw(unsigned int VAO, unsigned int VBO, GLFWwindow* window) {
-	// input
-	this->processInput(this->window);
-	///////////////////////////////////////////////////////////////
-	///////////////////// set backgroundcolor /////////////////////
-	///////////////////////////////////////////////////////////////
+void Shader::draw(unsigned int VAO, unsigned int VBO) {
+        // input
+        // -----
+        processInput();
 
-	glClearColor(0.005f, 0.0f, 0.02f, 1.0f);
-	glClear(GL_COLOR_BUFFER_BIT);
+        // render
+        // ------
+        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT);
 
+        // draw our first triangle
+        glUseProgram(shaderProgram);
+        glBindVertexArray(VAO); // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
+        glDrawArrays(GL_TRIANGLES, 0, 3);
+        glBindVertexArray(0); // no need to unbind it every time 
+ 
+        // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
+        // -------------------------------------------------------------------------------
+        glfwSwapBuffers(window);
+        glfwPollEvents();
+}
 
-	///////////////////////////////////////////////////////////////
-	//////////////////// movement with matirx /////////////////////
-	///////////////////////////////////////////////////////////////
-	glUseProgram(shaderProgram);
-
-	// render boxes
-	glBindVertexArray(VAO);
-
-	// glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
-	// -------------------------------------------------------------------------------
-	glfwSwapBuffers(window);
-	glfwPollEvents();
+void Shader::setMat4(const std::string &name, const glm::mat4 &mat) const{
+	glUniformMatrix4fv(glGetUniformLocation(this->shaderProgram, name.c_str()), 1, GL_FALSE, &mat[0][0]);
 }
 //-------------------------------------------------------------------------------------//
 
@@ -46,8 +47,7 @@ Shader::Shader() : shaderProgram(0) {
 	std::cout << "Failed: not enough Shader-Input!" << std::endl;
 }
 
-Shader::Shader(GLFWwindow* window,const char* str1, const char* str2) : shaderProgram(0), window(window), 
-vertexShaderSource(str1), fragmentShaderSource(str2) {
+Shader::Shader(GLFWwindow* window) : shaderProgram(0), window(window){
 
 	if (window == NULL)
 	{
@@ -65,7 +65,6 @@ vertexShaderSource(str1), fragmentShaderSource(str2) {
 	{
 		std::cout << "Failed to initialize GLAD" << std::endl;
 	}
-	initShader();
 }
 Shader::~Shader() {
 
@@ -73,9 +72,6 @@ Shader::~Shader() {
 	/////////////////////   shut down window  /////////////////////
 	///////////////////////////////////////////////////////////////
 	glfwTerminate();
-}
-void Shader::setMat4(const std::string &name, const glm::mat4 &mat) const{
-	glUniformMatrix4fv(glGetUniformLocation(this->shaderProgram, name.c_str()), 1, GL_FALSE, &mat[0][0]);
 }
 
 void  Shader::initShader() {
@@ -133,7 +129,7 @@ void Shader::close(unsigned int VAO, unsigned int VBO) {
 
 // process all input: query GLFW whether relevant keys are pressed/released this frame and react accordingly
 // ---------------------------------------------------------------------------------------------------------
-void Shader::processInput(GLFWwindow *window){
+void Shader::processInput(){
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, true);
 }

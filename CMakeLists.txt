@@ -21,6 +21,7 @@ set(SOURCES
 	"${SRC_DIR}/ownshader.cpp"
 	"${SRC_DIR}/particle.cpp"
 	"${SRC_DIR}/directions.cpp"
+	"${SRC_DIR}/display.cpp"
 	"${SRC_DIR}/glad.c"
 )
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADER})

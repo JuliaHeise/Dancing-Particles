@@ -10,18 +10,18 @@ class Shader {
 public:
 	//ctor + dtor
 	Shader();
-	Shader(GLFWwindow* window, const char* str1, const char* str2);
+	Shader(GLFWwindow* window);
 	~Shader();
 
 	//methods to work with
 	void setMat4(const std::string &name, const glm::mat4 &mat) const;
-	void draw(unsigned int VAO, unsigned int VBO, GLFWwindow* window);
+	void draw(unsigned int VAO, unsigned int VBO);
 
 	// fixed methods - do not change
 	void initShader();
 	void close(unsigned int VAO, unsigned int VBO);
 	void framebuffer_size_callback(GLFWwindow* window, int width, int height);
-	void processInput(GLFWwindow *window);
+	void processInput();
 
 	//getter
 	GLFWwindow* Shader::getwindow() { return window; };
@@ -34,8 +34,18 @@ private:
 	GLFWwindow* window;
 
 	//Shadercodes - Work with!!
-	const char *vertexShaderSource;
-	const char *fragmentShaderSource;
+	const char *vertexShaderSource = "#version 330 core\n"
+    "layout (location = 0) in vec3 aPos;\n"
+    "void main()\n"
+    "{\n"
+    "   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
+    "}\0"; 
+	const char *fragmentShaderSource = "#version 330 core\n"
+    "out vec4 FragColor;\n"
+    "void main()\n"
+    "{\n"
+    "   FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
+    "}\n\0";
 };
 
 #endif
