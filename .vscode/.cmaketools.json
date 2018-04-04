@@ -102,14 +102,6 @@
                 "type": "UTILITY"
               },
               {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
-                "fullName": "ALL_BUILD",
-                "isGeneratorProvided": true,
-                "name": "ALL_BUILD",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
-                "type": "UTILITY"
-              },
-              {
                 "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
                 "fullName": "ALL_BUILD",
                 "isGeneratorProvided": true,
@@ -154,7 +146,7 @@
                       "source/ownshader.cpp",
                       "source/particle.cpp",
                       "source/directions.cpp",
-                      "source/model.cpp"
+                      "source/display.cpp"
                     ]
                   },
                   {
@@ -164,7 +156,7 @@
                       "header/directions.hpp",
                       "header/particle.hpp",
                       "header/ownshader.hpp",
-                      "header/model.hpp"
+                      "header/display.hpp"
                     ]
                   },
                   {
@@ -205,6 +197,14 @@
                 "name": "Dancing_Particles",
                 "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
                 "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
               }
             ]
           },
@@ -386,14 +386,6 @@
                 "type": "UTILITY"
               },
               {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
-                "fullName": "ALL_BUILD",
-                "isGeneratorProvided": true,
-                "name": "ALL_BUILD",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
-                "type": "UTILITY"
-              },
-              {
                 "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
                 "fullName": "ALL_BUILD",
                 "isGeneratorProvided": true,
@@ -416,7 +408,7 @@
                       "header/directions.hpp",
                       "header/particle.hpp",
                       "header/ownshader.hpp",
-                      "header/model.hpp"
+                      "header/display.hpp"
                     ]
                   },
                   {
@@ -448,7 +440,7 @@
                       "source/ownshader.cpp",
                       "source/particle.cpp",
                       "source/directions.cpp",
-                      "source/model.cpp"
+                      "source/display.cpp"
                     ]
                   },
                   {
@@ -489,6 +481,14 @@
                 "name": "Dancing_Particles",
                 "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
                 "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
               }
             ]
           },
@@ -670,14 +670,6 @@
                 "type": "UTILITY"
               },
               {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
-                "fullName": "ALL_BUILD",
-                "isGeneratorProvided": true,
-                "name": "ALL_BUILD",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
-                "type": "UTILITY"
-              },
-              {
                 "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
                 "fullName": "ALL_BUILD",
                 "isGeneratorProvided": true,
@@ -700,7 +692,7 @@
                       "header/directions.hpp",
                       "header/particle.hpp",
                       "header/ownshader.hpp",
-                      "header/model.hpp"
+                      "header/display.hpp"
                     ]
                   },
                   {
@@ -732,7 +724,7 @@
                       "source/ownshader.cpp",
                       "source/particle.cpp",
                       "source/directions.cpp",
-                      "source/model.cpp"
+                      "source/display.cpp"
                     ]
                   },
                   {
@@ -773,6 +765,14 @@
                 "name": "Dancing_Particles",
                 "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
                 "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
               }
             ]
           },
@@ -954,14 +954,6 @@
                 "type": "UTILITY"
               },
               {
-                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
-                "fullName": "ALL_BUILD",
-                "isGeneratorProvided": true,
-                "name": "ALL_BUILD",
-                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
-                "type": "UTILITY"
-              },
-              {
                 "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build",
                 "fullName": "ALL_BUILD",
                 "isGeneratorProvided": true,
@@ -984,7 +976,7 @@
                       "header/directions.hpp",
                       "header/particle.hpp",
                       "header/ownshader.hpp",
-                      "header/model.hpp"
+                      "header/display.hpp"
                     ]
                   },
                   {
@@ -1016,7 +1008,7 @@
                       "source/ownshader.cpp",
                       "source/particle.cpp",
                       "source/directions.cpp",
-                      "source/model.cpp"
+                      "source/display.cpp"
                     ]
                   },
                   {
@@ -1057,6 +1049,14 @@
                 "name": "Dancing_Particles",
                 "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles",
                 "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/build/libraries/glfw",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/Julia/Documents/Dancing Particles/Dancing-Particles/libraries/glfw",
+                "type": "UTILITY"
               }
             ]
           },
@@ -1146,7 +1146,7 @@
         ]
       }
     ],
-    "cookie": "0.968308818434501",
+    "cookie": "0.4496144255367318",
     "inReplyTo": "codemodel",
     "type": "reply"
   }

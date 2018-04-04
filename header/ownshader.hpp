@@ -16,7 +16,7 @@ class Shader {
 public:
 	//ctor + dtor
 	Shader();
-	Shader(GLFWwindow* window, Model<4,2>* model);
+	Shader(GLFWwindow* window, Model* model);
 	~Shader();
 
 	//methods to work with
@@ -36,6 +36,7 @@ public:
 private:
 	int shaderProgram;
 	GLFWwindow* window;
+	Model* model;
 
 	//Shadercodes - Work with!!
 	const char *vertexShaderSource = "#version 330 core\n"
