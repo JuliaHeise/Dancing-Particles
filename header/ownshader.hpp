@@ -1,6 +1,12 @@
 #ifndef HEADER3
 #define HEADER3
 #include "header.hpp"
+#include "model.hpp"
+
+GLFWwindow* createWindow();
+void initGLFW();
+void framebuffer_size_callback(GLFWwindow* window, int width, int height);
+void processInput(GLFWwindow* window);
 
 ////////////////////////////////////////////////////////////////
 /////////////////////   SHADER PROGRAMME   /////////////////////
@@ -10,18 +16,16 @@ class Shader {
 public:
 	//ctor + dtor
 	Shader();
-	Shader(GLFWwindow* window);
+	Shader(GLFWwindow* window, Model* model);
 	~Shader();
 
 	//methods to work with
 	void setMat4(const std::string &name, const glm::mat4 &mat) const;
-	void draw(unsigned int VAO, unsigned int VBO);
 
 	// fixed methods - do not change
 	void initShader();
 	void close(unsigned int VAO, unsigned int VBO);
-	void framebuffer_size_callback(GLFWwindow* window, int width, int height);
-	void processInput();
+
 
 	//getter
 	GLFWwindow* Shader::getwindow() { return window; };
@@ -32,6 +36,7 @@ public:
 private:
 	int shaderProgram;
 	GLFWwindow* window;
+	Model* model;
 
 	//Shadercodes - Work with!!
 	const char *vertexShaderSource = "#version 330 core\n"

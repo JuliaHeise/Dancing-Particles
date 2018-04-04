@@ -13,7 +13,8 @@ set(HEADER
 	"${HD_DIR}/directions.hpp"
 	"${HD_DIR}/particle.hpp"
 	"${HD_DIR}/ownshader.hpp"
-	"${HD_DIR}/display.hpp"
+	"${HD_DIR}/model.hpp"
+
 )
 set(SOURCES 	
 	"${SRC_DIR}/header.hpp"
@@ -21,7 +22,7 @@ set(SOURCES
 	"${SRC_DIR}/ownshader.cpp"
 	"${SRC_DIR}/particle.cpp"
 	"${SRC_DIR}/directions.cpp"
-	"${SRC_DIR}/display.cpp"
+	"${SRC_DIR}/model.cpp"
 	"${SRC_DIR}/glad.c"
 )
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADER})
