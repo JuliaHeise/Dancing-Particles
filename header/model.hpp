@@ -1,20 +1,24 @@
 #ifndef MODEL
 #define MODEL
-
-template<int N>
+template<int P, int T> //num Points, num Triangles
 class Model{
     public:
         Model();
-        Model<N>(float ver[], int idx[]);
-        Model<N>(Model<N> m);
+        Model(const float* ver,const int* idx);
+        Model(const Model &m);
         ~Model();
 
-        float[] getVert(){ return vertices; };
-        int[] getIdx(){ return indices; };
+
+        float* getVert(){ return &vertices; };
+        unsigned int* getIdx(){ 
+            unsigned int* d = &indices;
+            return d; };
 
     private:
-        float vertices[];
-        int indices[];
+        float vertices[3*P];
+        unsigned int indices[3*T];
+        const int numPoints;
+        const int numTriangles;
 };
 
 #endif

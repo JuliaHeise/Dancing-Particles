@@ -9,7 +9,7 @@ void Shader::setMat4(const std::string &name, const glm::mat4 &mat) const{
 	glUniformMatrix4fv(glGetUniformLocation(this->shaderProgram, name.c_str()), 1, GL_FALSE, &mat[0][0]);
 }
 //-------------------------------------------------------------------------------------//
-Shader::Shader(GLFWwindow* window, Model* m) : shaderProgram(0), window(window), model(m){
+Shader::Shader(GLFWwindow* window, Model<4,2>* m) : shaderProgram(0), window(window){
 if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -66,11 +66,36 @@ if (window == NULL)
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
 
+    std::cout << "shader linking done" << std::endl;
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
-    float vertices[] = model->getVert();
-    unsigned int indices[] = model->getIdx();
     
+    float* p = m->getVert();
+    std:: cout << (m->getVert()) << std::endl;
+    std:: cout << "POITNER" << std::endl;
+    std:: cout << *p << std::endl;
+    std:: cout << "POINTER" << std::endl;
+    float vertices[4*3];
+    for(int i = 0; i < 12; i++){
+        vertices[i] = *p;
+        std::cout << vertices[i] << std::endl;
+        p++;
+        std::cout << *p << std::endl;
+    }
+    delete(p);
+    std::cout << "vertices done" << std::endl;
+
+    unsigned int* t = m->getIdx();
+    unsigned int indices[3*2];
+    for(int i = 0; i < 6; i++){
+        indices[i] = *t;
+        std::cout << indices[i] << std::endl;
+        t++;
+    }
+    delete(t);
+    std::cout << "indices done" << std::endl;
+
+
     unsigned int VBO, VAO, EBO;
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
@@ -132,14 +157,12 @@ if (window == NULL)
     glDeleteVertexArrays(1, &VAO);
     glDeleteBuffers(1, &VBO);
     glDeleteBuffers(1, &EBO);
-
-    // glfw: terminate, clearing all previously allocated GLFW resources.
-    // ------------------------------------------------------------------
-    glfwTerminate();
 }
 
 Shader::~Shader() {
-    delete(window);
+        // glfw: terminate, clearing all previously allocated GLFW resources.
+    // ------------------------------------------------------------------
+    glfwTerminate();
 }
 
 

@@ -9,14 +9,22 @@ int main(){
 	/////////////////////  glfw  init/config  /////////////////////
 	///////////////////////////////////////////////////////////////
 	initGLFW();
+	std::cout << "init finished" << std::endl;
 
 	///////////////////////////////////////////////////////////////
 	/////////////////////    create window    /////////////////////
 	///////////////////////////////////////////////////////////////
-	Model* model = new Model();
+	
 	GLFWwindow* window = createWindow();
+	std::cout << "creatwindow" << std::endl;
+
+	Model<4,2>* model = new Model<4,2>();
+	std::cout << *(model->vertices) << std::endl;
+	std::cout << model->vertices << std::endl;
 	Shader* shader = new Shader(window, model);
 
 	std::cout << "DANCE!" << std::endl;
+	delete(model);
+	delete(shader);
     return 0;
 }
