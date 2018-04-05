@@ -1,6 +1,7 @@
-#ifndef HEADER3
-#define HEADER3
+#ifndef SHADER1
+#define SHADER1
 #include "header.hpp"
+
 
 ////////////////////////////////////////////////////////////////
 /////////////////////   SHADER PROGRAMME   /////////////////////
@@ -15,13 +16,11 @@ public:
 
 	//methods to work with
 	void setMat4(const std::string &name, const glm::mat4 &mat) const;
-	void draw(unsigned int VAO, unsigned int VBO);
+	void drawCircle();
 
 	// fixed methods - do not change
 	void initShader();
 	void close(unsigned int VAO, unsigned int VBO);
-	void framebuffer_size_callback(GLFWwindow* window, int width, int height);
-	void processInput();
 
 	//getter
 	GLFWwindow* Shader::getwindow() { return window; };
@@ -42,10 +41,16 @@ private:
     "}\0"; 
 	const char *fragmentShaderSource = "#version 330 core\n"
     "out vec4 FragColor;\n"
+	"uniform vec4 ourColor;\n"
     "void main()\n"
     "{\n"
-    "   FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
+    "   FragColor = ourColor;\n"
     "}\n\0";
 };
+
+void processInput(GLFWwindow* window);
+void initGLFW();
+GLFWwindow* createWindow();
+void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
 #endif
