@@ -23,7 +23,7 @@ public:
 	void close(unsigned int VAO, unsigned int VBO);
 
 	//getter
-	GLFWwindow* Shader::getwindow() { return window; };
+	GLFWwindow* getwindow() { return window; };
 	int getID() { return shaderProgram; };
 
 
